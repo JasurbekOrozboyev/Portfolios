@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
@@ -70,7 +71,7 @@
                 <div>
                     <h2 class="text-center mt-[140px] mb-[60px] text-[64px] font-['Jaro'] tracking-[8px]">MEN TAKLIF QILADIGAN XIZMATLAR</h2>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <ul class="flex gap-[15px]">
                         <li class="w-[400px] h-[300px]  pt-[20px] border border-[#E66100] rounded-[10px] hover:bg-[#FBDECE] hover:border-none"> 
                             <i class="fa-solid fa-pen-nib text-[120px] ml-[100px]" style="color:#E66100"></i>
@@ -94,7 +95,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="mt-[20px]">
+                <div class="mt-[20px]" data-aos="fade-up" data-aos-duration="1000">
                     <ul class="flex gap-[15px]">
                         <li class="w-[400px] h-[300px]  pt-[20px] border border-[#E66100] rounded-[10px] hover:bg-[#FBDECE] hover:border-none"> 
                             <i class="fa-solid fa-gear text-[120px] ml-[100px]" style="color:#E66100"></i>
@@ -122,6 +123,39 @@
         </div>
     </section>
 
+    <footer>
+        <div class="container  m-auto w-[80%]">
+            <ul class=" flex justify-between mb-[40px]">
+                <li>
+                    <button class="border-[2px] w-[180px] h-[50px] rounded-[8px] hover:bg-[#E66100] hover:text-white">
+                        <a href="../index.html">Orqaga</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="border-[2px] w-[180px] h-[50px] rounded-[8px] hover:bg-[#E66100] hover:text-white">
+                        <a href="./men_haqimda.html">Oldinga</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </footer>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
